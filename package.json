@@ -1,0 +1,22 @@
+{
+    "name": "elvanos-theme",
+    "displayName": "Elvanos Theme",
+    "description": "Personal theme of Elvanos",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "publisher": "elvanos",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Elvanos Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Elvanos Theme-color-theme.json"
+            }
+        ]
+    }
+}
