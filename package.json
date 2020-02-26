@@ -2,13 +2,18 @@
     "name": "elvanos-theme",
     "displayName": "Elvanos Theme",
     "description": "Personal theme of Elvanos",
-    "version": "0.0.1",
+    "version": "0.1.1",
     "engines": {
         "vscode": "^1.42.0"
     },
     "categories": [
         "Themes"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Elvanos/elvanos-theme"
+    },
+    "homepage": "https://github.com/Elvanos/elvanos-theme",
     "publisher": "elvanos",
     "contributes": {
         "themes": [
