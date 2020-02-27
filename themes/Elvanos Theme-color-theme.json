@@ -696,6 +696,7 @@
 				"storage.modifier.php",
 				"support.function.construct.php",
 				"constant.language.php",
+				"constant.other.php"
 				"storage.type.class.php",
 				"meta.class.php",
 				"keyword.other.new.php"
@@ -816,22 +817,6 @@
 			"settings": {
 				"foreground": "#addb67",
 				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "PHP constant",
-			"scope": "constant.other.php",
-			"settings": {
-				"foreground": "#ed8769",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "PHP built-in constant",
-			"scope": "constant.language.php",
-			"settings": {
-				"foreground": "#d9603d",
-				"fontStyle": "bold"
 			}
 		},
 		{
