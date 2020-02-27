@@ -699,7 +699,9 @@
 				"constant.other.php",
 				"storage.type.class.php",
 				"meta.class.php",
-				"keyword.other.new.php"
+				"keyword.other.new.php",
+				"variable.other.global.safer.php",
+				"support.constant.std.php"
 			],
 			"settings": {
 				"foreground": "#c792ea",
