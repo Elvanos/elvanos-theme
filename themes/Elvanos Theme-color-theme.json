@@ -696,7 +696,7 @@
 				"storage.modifier.php",
 				"support.function.construct.php",
 				"constant.language.php",
-				"constant.other.php"
+				"constant.other.php",
 				"storage.type.class.php",
 				"meta.class.php",
 				"keyword.other.new.php"
