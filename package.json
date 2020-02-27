@@ -2,7 +2,7 @@
     "name": "elvanos-theme",
     "displayName": "Elvanos Theme",
     "description": "Personal theme of Elvanos",
-    "version": "0.2.6",
+    "version": "0.2.7",
     "engines": {
         "vscode": "^1.42.0"
     },

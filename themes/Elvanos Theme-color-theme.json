@@ -59,7 +59,10 @@
 		"peekViewEditor.matchHighlightBackground": "#89DDF740",
 		"editorOverviewRuler.border": "#ffffff00",
 		"window.activeBorder": "#178f8466",
-		"window.inactiveBorder": "#178f8466"
+		"window.inactiveBorder": "#178f8466",
+		"statusBar.debuggingBackground": "#81CEE6",
+		"statusBar.debuggingForeground": "#000000",
+		"statusBar.debuggingBorder": "#81CEE6"
 	},
 	"tokenColors": [
 		{
