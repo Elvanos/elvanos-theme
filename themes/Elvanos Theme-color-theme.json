@@ -10,7 +10,7 @@
 		"badge.foreground": "#fff",
 		"badge.background": "#178f84",
 		"sideBar.background": "#1a1a1a",
-		"activityBar.inactiveForeground": "#89DDF766",
+		"activityBar.inactiveForeground": "#89DDF780",
 		"activityBar.foreground": "#89DDF7",
 		"menu.background": "#1e2526",
 		"menubar.selectionBackground": "#285c58cc",
@@ -58,6 +58,8 @@
 		"peekViewTitleDescription.foreground": "#fff",
 		"peekViewEditor.matchHighlightBackground": "#89DDF740",
 		"editorOverviewRuler.border": "#ffffff00",
+		"window.activeBorder": "#178f8466",
+		"window.inactiveBorder": "#178f8466"
 	},
 	"tokenColors": [
 		{
