@@ -62,7 +62,9 @@
 		"window.inactiveBorder": "#178f8466",
 		"statusBar.debuggingBackground": "#81CEE6",
 		"statusBar.debuggingForeground": "#000000",
-		"statusBar.debuggingBorder": "#81CEE6"
+		"statusBar.debuggingBorder": "#81CEE6",
+		"tab.activeModifiedBorder": "#40d672",
+		"tab.inactiveModifiedBorder": "#2e9952"
 	},
 	"tokenColors": [
 		{
@@ -977,7 +979,8 @@
 		{
 			"name": "SCSS punctuation",
 			"scope": [
-				"punctuation.separator.key-value.scss"
+				"punctuation.separator.key-value.scss",
+				"punctuation.separator.key-value.css"
 			],
 			"settings": {
 				"foreground": "#ffffff",
@@ -995,8 +998,24 @@
 			}
 		},
 		{
+			"name": "SCSS Operators",
+			"scope": [
+				"variable.parameter.url.scss",
+				"keyword.operator.scss",
+				"variable.parameter.url.css",
+				"keyword.operator.css"
+			],
+			"settings": {
+				"foreground": "#89ddf7",
+				"fontStyle": ""
+			}
+		},
+		{
 			"name": "SCSS Variable",
-			"scope": "variable.scss",
+			"scope": [
+				"variable.scss",
+				"variable.css"
+			],
 			"settings": {
 				"foreground": "#2ac0b1"
 			}
@@ -1005,7 +1024,9 @@
 			"name": "SCSS value punctuation",
 			"scope": [
 				"meta.property-value.scss",
-				"punctuation.separator.delimiter.scss"
+				"punctuation.separator.delimiter.scss",
+				"meta.property-value.css",
+				"punctuation.separator.delimiter.css"
 			],
 			"settings": {
 				"foreground": "#ffffff"
@@ -1024,7 +1045,10 @@
 		},
 		{
 			"name": "& symbol",
-			"scope": "entity.name.tag.reference.scss",
+			"scope": [
+				"entity.name.tag.reference.scss",
+				"entity.name.tag.reference.css"
+			],
 			"settings": {
 				"foreground": "#ffcb6b",
 				"fontStyle": ""
@@ -1034,7 +1058,9 @@
 			"name": "SCSS Keywords",
 			"scope": [
 				"keyword.other.important.scss",
-				"punctuation.definition.keyword.scss"
+				"punctuation.definition.keyword.scss",
+				"keyword.other.important.css",
+				"punctuation.definition.keyword.css"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -1047,7 +1073,9 @@
 				"constant.other.color.rgb-value.hex.css",
 				"punctuation.definition.constant.css",
 				"punctuation.definition.string.begin.scss",
-				"punctuation.definition.string.end.scss"
+				"punctuation.definition.string.end.scss",
+				"punctuation.definition.string.begin.css",
+				"punctuation.definition.string.end.css"
 			],
 			"settings": {
 				"foreground": "#ffcb6b"
@@ -1057,7 +1085,8 @@
 			"name": "HTML tag name inside CSS",
 			"scope": [
 				"entity.name.tag.css",
-				"entity.name.tag.wildcard.scss"
+				"entity.name.tag.wildcard.scss",
+				"entity.name.tag.wildcard.css"
 			],
 			"settings": {
 				"foreground": "#ee7077"
@@ -1072,14 +1101,20 @@
 		},
 		{
 			"name": "SCSS Functions",
-			"scope": "entity.name.function.scss",
+			"scope": [
+				"entity.name.function.scss",
+				"entity.name.function.css"
+			],
 			"settings": {
 				"foreground": "#ADDB67"
 			}
 		},
 		{
 			"name": "CSS advanced selectors",
-			"scope": "meta.property-list.scss",
+			"scope": [
+				"meta.property-list.scss",
+				"meta.property-list.css"
+			],
 			"settings": {
 				"foreground": "#89ddf7"
 			}
@@ -1093,14 +1128,20 @@
 		},
 		{
 			"name": "SCSS curly brackets",
-			"scope": "punctuation.definition.interpolation.begin.bracket.curly.scss",
+			"scope": [
+				"punctuation.definition.interpolation.begin.bracket.curly.scss",
+				"punctuation.definition.interpolation.begin.bracket.curly.css"
+			],
 			"settings": {
 				"foreground": "#89ddf7"
 			}
 		},
 		{
 			"name": "SCSS Meta name",
-			"scope": "meta.property-name.scss",
+			"scope": [
+				"meta.property-name.scss",
+				"meta.property-name.css"
+			],
 			"settings": {
 				"foreground": "#F78C6C"
 			}
@@ -1629,6 +1670,53 @@
 			"settings": {
 				"foreground": "#5DDB6D"
 			}
-		}
+		},
+		{
+			"name": "XML Namespace",
+			"scope": "entity.other.attribute-name.namespace.xml",
+			"settings": {
+				"foreground": "#ADDB67"
+			}
+		},
+		{
+			"name": "XML tags",
+			"scope": [
+				"entity.name.tag.localname.xml",
+				"punctuation.definition.tag.xml"
+			],
+			"settings": {
+				"foreground": "#87daf3",
+			}
+		},
+		{
+			"name": "XML Operators",
+			"scope": "punctuation.separator.namespace.xml",
+			"settings": {
+				"foreground": "#87daf3"
+			}
+		},
+		{
+			"name": "XML attribute names",
+			"scope": [
+				"entity.other.attribute-name.localname.xml",
+			],
+			"settings": {
+				"foreground": "#addb67",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "XML attribute values",
+			"scope": [
+				"meta.tag.xml",
+				"punctuation.definition.string.begin.xml",
+				"punctuation.definition.string.end.xml",
+				"string.quoted.double.xml",
+				"string.quoted.single.xml"
+			],
+			"settings": {
+				"foreground": "#d1a1d5",
+			}
+		},
 	]
 }
