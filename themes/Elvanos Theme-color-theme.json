@@ -998,6 +998,20 @@
 			}
 		},
 		{
+			"name": "BEM Element/block",
+			"scope": "bem.support.element.scss",
+			"settings": {
+				"foreground": "#fcff85"
+			}
+		},
+		{
+			"name": "BEM Modifier",
+			"scope": "bem.support.modifier.scss",
+			"settings": {
+				"foreground": "#fdb127"
+			}
+		},
+		{
 			"name": "SCSS Operators",
 			"scope": [
 				"variable.parameter.url.scss",
