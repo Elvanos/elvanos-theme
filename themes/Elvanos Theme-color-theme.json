@@ -4,6 +4,7 @@
 	"colors": {
 		"editor.background": "#212121",
 		"editor.foreground": "#eeffff",
+		"focusBorder": "#89DDF780",
 		"activityBar.background": "#212121",
 		"activityBarBadge.background": "#178f84",
 		"activityBarBadge.foreground": "#fff",
@@ -64,7 +65,7 @@
 		"statusBar.debuggingForeground": "#000000",
 		"statusBar.debuggingBorder": "#81CEE6",
 		"tab.activeModifiedBorder": "#40d672",
-		"tab.inactiveModifiedBorder": "#2e9952"
+		"tab.inactiveModifiedBorder": "#2e9952",
 	},
 	"tokenColors": [
 		{
