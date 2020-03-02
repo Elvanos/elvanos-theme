@@ -5,6 +5,8 @@
 		"editor.background": "#212121",
 		"editor.foreground": "#eeffff",
 		"focusBorder": "#89DDF780",
+		"editorUnnecessaryCode.border": "#FF6F6199",
+		"editorUnnecessaryCode.opacity": "#0000008c",
 		"activityBar.background": "#212121",
 		"activityBarBadge.background": "#178f84",
 		"activityBarBadge.foreground": "#fff",
