@@ -889,7 +889,8 @@
 			"name": "JSON comma",
 			"scope": [
 				"punctuation.separator.dictionary.pair.json",
-				"punctuation.separator.array.json.comments"
+				"punctuation.separator.array.json.comments",
+				"punctuation.separator.array.json"
 			],
 			"settings": {
 				"foreground": "#ffffff",
