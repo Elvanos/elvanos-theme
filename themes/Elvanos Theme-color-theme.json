@@ -504,7 +504,7 @@
 		{
 			"name": "Markdown - Markup Raw Inline",
 			"scope": [
-				"text.html.markdown markup.inline.raw.markdown"
+				"text.html.markdown markup.inline.raw.markdown",
 			],
 			"settings": {
 				"foreground": "#C792EA"
@@ -818,7 +818,8 @@
 				"punctuation.definition.tag.end.html",
 				"entity.name.tag.html",
 				"entity.name.tag.block.any.html",
-				"entity.name.tag.pug"
+				"entity.name.tag.pug",
+				"punctuation.separator.key-value.html"
 			],
 			"settings": {
 				"foreground": "#87daf3",
@@ -828,7 +829,7 @@
 			"name": "HTML attribute names",
 			"scope": [
 				"entity.other.attribute-name.html",
-				"entity.other.attribute-name.tag.pug"
+				"entity.other.attribute-name.tag.pug",
 			],
 			"settings": {
 				"foreground": "#addb67",
@@ -838,7 +839,6 @@
 		{
 			"name": "HTML attribute values",
 			"scope": [
-				"punctuation.separator.key-value.html",
 				"punctuation.definition.string.begin.html",
 				"punctuation.definition.string.end.html",
 				"string.quoted.double.html",
@@ -913,6 +913,16 @@
 			}
 		},
 		{
+			"name": "PUG class names",
+			"scope": [
+				"entity.other.attribute-name.class.pug"
+			],
+			"settings": {
+				"foreground": "#d1a1d5",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"name": "PHP commas",
 			"scope": [
 				"punctuation.separator.delimiter.php"
@@ -926,7 +936,9 @@
 			"scope": [
 				"keyword.other.phpdoc.php",
 				"punctuation.definition.block.tag.jsdoc",
-				"storage.type.class.jsdoc"
+				"storage.type.class.jsdoc",
+				"meta.directive.vue",
+				"meta.directive.vue constant.numeric.decimal.js"
 			],
 			"settings": {
 				"foreground": "#5ddb6d",
@@ -1743,6 +1755,15 @@
 			],
 			"settings": {
 				"foreground": "#d1a1d5",
+			}
+		},
+		{
+			"name": "VUE master tags",
+			"scope": [
+				"entity.name.tag.template.html",
+			],
+			"settings": {
+				"foreground": "#935ac2",
 			}
 		},
 	]
