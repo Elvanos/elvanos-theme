@@ -801,6 +801,7 @@
 				"comment.line.double-slash.php",
 				"comment.block.php",
 				"comment",
+				"string.comment.buffered.block.pug",
 				"punctuation.definition.comment",
 				"comment.line.double-slash.ts",
 				"comment.block.documentation.ts"
@@ -816,7 +817,8 @@
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
 				"entity.name.tag.html",
-				"entity.name.tag.block.any.html"
+				"entity.name.tag.block.any.html",
+				"entity.name.tag.pug"
 			],
 			"settings": {
 				"foreground": "#87daf3",
@@ -826,6 +828,7 @@
 			"name": "HTML attribute names",
 			"scope": [
 				"entity.other.attribute-name.html",
+				"entity.other.attribute-name.tag.pug"
 			],
 			"settings": {
 				"foreground": "#addb67",
@@ -839,7 +842,9 @@
 				"punctuation.definition.string.begin.html",
 				"punctuation.definition.string.end.html",
 				"string.quoted.double.html",
-				"string.quoted.single.html"
+				"string.quoted.single.html",
+				"string.quoted.pug",
+				"attribute_value"
 			],
 			"settings": {
 				"foreground": "#d1a1d5",
@@ -1197,10 +1202,12 @@
 			"scope": [
 				"entity.name.type.class.ts",
 				"entity.other.inherited-class.ts",
-				"new.expr.ts"
+				"new.expr.ts",
+				"support.class"
 			],
 			"settings": {
-				"foreground": "#ADDB67"
+				"foreground": "#ADDB67",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -1684,7 +1691,8 @@
 			"name": "JS JDOC brackets",
 			"scope": [
 				"punctuation.definition.bracket.curly.end.jsdoc",
-				"punctuation.definition.bracket.curly.begin.jsdoc"
+				"punctuation.definition.bracket.curly.begin.jsdoc",
+				"constant.name.attribute.tag.pug"
 			],
 			"settings": {
 				"foreground": "#5DDB6D"
