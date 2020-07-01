@@ -1761,9 +1761,11 @@
 			"name": "VUE master tags",
 			"scope": [
 				"entity.name.tag.template.html",
+				"entity.name.tag.style.html",
+				"entity.name.tag.script.html",
 			],
 			"settings": {
-				"foreground": "#935ac2",
+				"foreground": "#b277e2",
 			}
 		},
 	]
